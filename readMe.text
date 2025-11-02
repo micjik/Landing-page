@@ -1,0 +1,25 @@
+#Project Title: Modern Landing Page
+
+#Description: A modern landing page built with html and css. Designed to showcase our services to
+growing developers with a clean layout and smooth animation.
+
+#Features: 
+ * fully responsive
+ * Hero Section
+ * About and Services Section
+ * Smooth scrolling and animation
+
+#Technology: Html5, Css3 and adding icons using Font awesome(https://fontawesome.com/)
+
+#Getting Started/ installation
+1. clone the repository -- git clone https://github.com/micjik/Landing-page.git
+2. open the project folder and do cd landing-page
+3. type code . in your command prompt
+4. open index.html in your browser.
+
+#Screen shot
+
+#Author: 
+        Michael Adetayo
+        -github: [@micjik]https://github.com/micjik
+        -LinkedIn: https://www.linkedin.com/in/adetayo-michael-16b430388/
