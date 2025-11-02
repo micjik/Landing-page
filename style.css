@@ -238,4 +238,126 @@ header h3{
     border-radius: 10px;
     font-weight: 200;
 }
+#mentors{
+    background-color: #f7f0ff;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+#mentors h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.mentor p{
+    text-align: center;
+    margin: 20px 30%;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.flex-mentors{
+    display:flex;
+    gap: 20px;
+    margin-inline: 10%;
+}
+.card-mentor{
+    width: 25%;
+    border: 2px solid #e3d2d2;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+.card-mentor .card-img{
+    text-align: center;
+    padding-top: 10px;
+}
+.card-mentor .card-img img:first-child{
+    border-radius: 50%;
+}
+.card-mentor h4{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.card-mentor h6{
+    text-align: center;
+    font-size: 16px;
+    padding-top:5px;
+    padding-bottom: 10px;
+    color: #60269e;
+}
+.card-mentor .card-des{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.card-mentor .icon{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+footer{
+    background-color:#0b0b22;
+    color:#ffffff;
+    padding: 6rem 0;
+    border-radius: 5px;
+    
+    
+}
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+}
+.logo-circle{
+    display: flex;
+    gap: 20px;
+}
+.logo-circle .circle-purple{
+    height: 20px;
+    width:20px;
+    border: 10px solid grey;
+    border-radius: 50%;
+    position:relative;
+    
+}
+.logo-circle .circle-grey{
+    height: 20px;
+    width: 20px;
+    border:10px solid #60269e;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right:10px;
+
+}
+
+.footer-content p{
+    padding-top: 20px;
+}
+.footer-sub{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+}
+.footer-sub h5{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.footer-sub ul{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.footer-sub ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.footer-sub ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
 
