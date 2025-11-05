@@ -360,4 +360,269 @@ footer{
     text-decoration: none;
     color:#ffffff;
 }
+/*mobile */
 
+@media (max-width: 480px) {
+
+    header{
+        display:flex;
+        justify-content: flex-start;
+        height:50px;
+        align-items: center;
+        gap:3px;
+    }
+    header h3{
+        font-size: 15px;
+    }
+    .navbar nav{
+        gap:5px;
+     }
+     .navbar nav li a{
+        font-size: 7px;
+     }
+     .sign button{
+    font-size: 7px;
+    margin-left:5px;
+    
+}
+.sign .active{
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.hero{
+    gap:1rem;
+    margin-top: 2rem;
+    display:flex
+    
+}
+.hero .hero-top{
+    display:flex;
+    justify-content: center;
+}
+.hero .hero-top p{
+    border: 2px solid #60269e;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.hero .hero-center h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.hero .hero-center h3 span{
+    margin-left: 5px;
+}
+.hero .hero-bottom p{
+    font-size: 1rem;
+}
+.hero .hero-bottom p span{
+    display:inline;
+}
+.btn-btn button{
+    padding:7px 14px;
+    border-radius: 8px;
+}
+
+#fun-fact{
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+.fun-fact h4{
+    
+    padding-top:25px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    
+}
+.fun-fact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5px;
+    padding-left: 1rem;
+}
+.fun-icon{
+    display:flex;
+    gap:10px;
+}
+.fun-reward span{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.fun-reward h5{
+    color:#60269e;
+    font-size: 12px;
+}
+
+.about-tech-hub{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about-hub-left h2{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.about-hub-left h3{
+    font-size: 1.2rem;
+}
+
+.about-hub-left p{
+    padding-top: 1.5rem;
+    font-size: 1rem;
+}
+.about-hub-right img{
+    height: 350px;
+    width:350px;
+}
+
+.content h2{
+font-size: 1.5rem;
+    
+}
+
+
+.content-des h3{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.content-des p{
+    font-size: 16px;
+    padding-bottom: 2rem;
+}
+#dev-community{
+    margin-top: 1rem;
+     padding: 5px 10%;
+}
+
+#dev-community h2{
+ padding-bottom: 1rem;
+ font-size: 1.2rem;
+}
+#dev-community h2 span{
+    display:block;
+}
+.dev-community{
+    flex-direction: column;
+    gap:1rem;
+}
+
+.dev-left ul li span{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.dev-right .dev-img-1{
+    display:none;
+}
+.dev-right .dev-img-2 img{
+    width: 300px;
+    height:300px;
+}
+.career{
+    flex-direction: column;
+}
+.career-des{
+    width:100%;
+
+}
+.career-des h2{
+    font-size: 1.2rem;
+}
+.btn-btn-2{
+    display: flex;
+    justify-content: center;
+}
+
+.career-img img{
+    height:300px;
+    width:300px;
+}
+#mentors{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#mentors h2{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.mentor p{
+    margin: 10px 10%;
+    font-size: 16px;
+    
+}
+.flex-mentors{
+    display:flex;
+    gap: 10px;
+    margin-inline: 2%;
+}
+.card-mentor{
+    width: 20%;
+}
+.card-mentor .card-img{
+    text-align: center;
+    padding-top: 10px;
+}
+.card-mentor .card-img img{
+    height:50px;
+    width:50px;
+}
+.card-mentor .card-img img:first-child{
+    border-radius: 50%;
+}
+.card-mentor h4{
+    font-size: 15px;
+}
+.card-mentor h6{
+    font-size: 12px;
+}
+.card-mentor p{
+    font-size: 10px;
+}
+.card-mentor .card-des{
+    margin-left: 5px;
+}
+.card-mentor .icon{
+    gap:10px;
+}
+footer{
+    background-color:#0b0b22;
+    color:#ffffff;
+    padding: 6rem 0;
+    border-radius: 5px;
+    
+    
+}
+.footer-container{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.4rem;
+}
+
+
+.footer-content p{
+    padding-top: 20px;
+}
+.footer-subdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-sub{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+}
+.footer-sub h5{
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+.footer-sub ul{
+    gap:5px;
+
+}
+.footer-sub ul li{
+    font-size: 14px;
+}
+
+/* @tablet */

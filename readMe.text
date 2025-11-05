@@ -23,3 +23,9 @@ growing developers with a clean layout and smooth animation.
         Michael Adetayo
         -github: [@micjik]https://github.com/micjik
         -LinkedIn: https://www.linkedin.com/in/adetayo-michael-16b430388/
+
+#challenges:
+1. when working on my responsive design using media query i realized the percentage was on 50% and have actually used that to design my responsive design.
+   I later realized this will not give the best user experience so I had to make research on this which I later
+   realized it do affect it.
+    
