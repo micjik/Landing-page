@@ -360,6 +360,200 @@ footer{
     text-decoration: none;
     color:#ffffff;
 }
+/* @tablet */
+@media (max-width: 768px) {
+   
+    header h3{
+        font-size: 1.5rem;
+    }
+    .navbar nav li a{
+        font-size: 16px;
+    }
+    .sign button{
+    font-size: 14px;
+   }
+   .hero{
+    gap:2rem;
+    margin-top: 2rem;
+}
+
+.hero .hero-top p{
+    font-size: 16px;
+}
+.hero .hero-center h3{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hero .hero-bottom p{
+    font-size: 1.6rem;
+}
+.hero .hero-bottom p span{
+    display:inline;
+}
+.btn-btn button{
+    padding:10px 20px;
+
+}
+#fun-fact{
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+.fun-fact h4{
+    
+    padding-top:25px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    
+}
+.fun-fact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    padding-left: 3rem;
+}
+}
+.fun-reward span{
+    font-size: 1.5rem;    
+}
+.fun-reward h5{
+    font-size: 16px;
+}
+.about-tech-hub{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about-hub-left h2{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.about-hub-left h3{
+    font-size: 1.6rem;
+}
+
+.about-hub-left p{
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+}
+.about-hub-right img{
+    border-radius: 10px;
+}
+.content h2{
+font-size: 2rem;
+}
+.content-des h3{
+    font-size: 1.5rem;
+}
+.content-des p{
+    font-size: 1.1rem;
+}
+#dev-community{
+    margin-top: 2rem;
+     padding: 15px 10%;
+}
+#dev-community h2{
+ padding-bottom: 2.5rem;
+ font-size: 2rem;
+}
+#dev-community h2 span{
+    display:block;
+}
+.dev-community{
+    flex-direction: column;
+    gap:1rem;
+}
+
+.dev-left ul li span{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dev-right .dev-img-1{
+    display:none;
+}
+.dev-right .dev-img-2 img{
+    width: 600px;
+    height:600px;
+}
+.career{
+    flex-direction: column;
+}
+.career-des{
+    width:100%;
+
+}
+.career-des h2{
+    font-size: 3rem;
+}
+.career-des p{
+    font-size: 25px;
+}
+.btn-btn-2{
+    display: flex;
+    justify-content: center;
+}
+
+.career-img img{
+    height:600px;
+    width:600px;
+}
+#mentors{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#mentors h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.mentor p{
+    margin: 10px 10%;
+    font-size: 1.2rem;
+    
+}
+.flex-mentors{
+    display:flex;
+    gap: 10px;
+    margin-inline: 5%;
+}
+.card-mentor{
+    width: 25%;
+}
+.card-mentor .card-img{
+    text-align: center;
+    padding-top: 10px;
+}
+.card-mentor .card-img img{
+    height:50px;
+    width:50px;
+}
+.card-mentor .card-img img:first-child{
+    border-radius: 50%;
+}
+.card-mentor h4{
+    font-size: 20px;
+}
+.card-mentor h6{
+    font-size: 16px;
+}
+.card-mentor p{
+    font-size: 12px;
+}
+.card-mentor .card-des{
+    margin-left: 5px;
+}
+.card-mentor .icon{
+    gap:10px;
+}
+.footer-container{
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+
+}
 /*mobile */
 
 @media (max-width: 480px) {
@@ -383,8 +577,7 @@ footer{
      .sign button{
     font-size: 7px;
     margin-left:5px;
-    
-}
+   }
 .sign .active{
     padding: 2px 4px;
     border-radius: 5px;
@@ -478,10 +671,7 @@ footer{
 
 .content h2{
 font-size: 1.5rem;
-    
 }
-
-
 .content-des h3{
     padding-top: 10px;
     font-size: 1.2rem;
@@ -625,4 +815,4 @@ footer{
     font-size: 14px;
 }
 
-/* @tablet */
+}

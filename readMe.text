@@ -28,4 +28,6 @@ growing developers with a clean layout and smooth animation.
 1. when working on my responsive design using media query i realized the percentage was on 50% and have actually used that to design my responsive design.
    I later realized this will not give the best user experience so I had to make research on this which I later
    realized it do affect it.
+2. while working on media query, I did mobile responsive first and while trying to do tablet responsive, I realized there is no effect,
+   I search on line to see why the tablet is not responsive only to realized that your tablet responsive have to come first.
     
