@@ -552,8 +552,6 @@ font-size: 2rem;
     padding-left: 25px;
 }
 
-
-}
 /*mobile */
 
 @media (max-width: 480px) {
@@ -623,14 +621,15 @@ font-size: 2rem;
 .fun-fact h4{
     
     padding-top:25px;
+    padding-right:10px;
     padding-bottom: 30px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     
 }
 .fun-fact-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:5px;
+    gap:3px;
     padding-left: 1rem;
 }
 .fun-icon{
@@ -638,12 +637,12 @@ font-size: 2rem;
     gap:10px;
 }
 .fun-reward span{
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 800;
 }
 .fun-reward h5{
     color:#60269e;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .about-tech-hub{
@@ -657,12 +656,13 @@ font-size: 2rem;
     text-align: center;
 }
 .about-hub-left h3{
-    font-size: 1.2rem;
+    font-size: 16px;
 }
 
 .about-hub-left p{
     padding-top: 1.5rem;
-    font-size: 1rem;
+    font-size: 14px;
+    padding-right: 5px;
 }
 .about-hub-right img{
     height: 350px;
